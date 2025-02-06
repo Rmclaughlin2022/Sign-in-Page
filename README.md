@@ -44,8 +44,3 @@ Through this project, I gained experience with:
 This project was initially developed outside of GitHub, so the first commits are missing. However, later commits documenting development progress are available in the repository.
 
 
-
-Commit History
-
-This project was initially developed outside of GitHub, so the first commits are missing. However, later commits documenting development progress are available in the repository.
-
