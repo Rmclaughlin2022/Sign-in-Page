@@ -86,7 +86,12 @@
     grid-column-start: 3;
   
     position: relative;
+    background-image: url(assets/img/viking.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
   
   .section_2 > .content {
     position: absolute;
@@ -144,13 +149,15 @@
     box-shadow: 1px 1px 5px #666666;
   }
   
-  input:not(input[type="tel"]):invalid {
+  input:invalid {
     outline: 1px solid rgb(255, 0, 0);
   }
   
   input[type="text"]:valid,
   input[type="email"]:valid,
-  input[type="password"]:valid {
+  input[type="password"]:valid,
+  input[type="tel"]:valid 
+  {
     outline: 1px solid rgb(0, 255, 98);
   }
   
@@ -163,6 +170,11 @@
     padding-top: 35px;
   
     font: var(--font);
+    position: relative;
+    background-image: url(assets/img/viking2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .section_4 button {
