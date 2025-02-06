@@ -4,7 +4,7 @@ Project Description
 
 This project is a simple yet sleek sign-in page inspired by Norse mythology, created for "The Odin Project." It includes validation on the login button and uses carefully selected images to enhance the aesthetic.
 
-Screenshot(s)
+Screenshots:
 
 ![Full Project](assets/img/Fullproject.png)
 
