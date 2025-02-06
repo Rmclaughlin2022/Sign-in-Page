@@ -5,9 +5,9 @@ This project is a simple yet sleek sign-in page inspired by Norse mythology, cre
 
 ## Screenshot(s)
 
-![Sign-in Page](assets/images/Fullproject.png)
+![Full Project](assets/img/Fullproject.png)
 
-![Sign-in Page](assets/images/Validation.png)
+![Validation](assets/img/Validation.png)
 
 
 ## Technologies Used
