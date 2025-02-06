@@ -1,7 +1,7 @@
 @font-face {
     font-family: "norse";
     src: url(fonts/norse-bold-webfont.woff) format("woff"),
-      url(fonts/norse-bold-webfont.woff2) format("woff2");
+    url(fonts/norse-bold-webfont.woff2) format("woff2");
     font-style: normal;
     font-weight: normal;
   }
@@ -50,7 +50,7 @@
   
   .section_1 > .odin-logo {
     background: rgba(1, 1, 1, 0.415);
-    transform: translateY(-130px);
+    transform: translateY(-200px);
     height: 8rem;
     text-align: center;
     display: flex;
@@ -86,7 +86,7 @@
     grid-column-start: 3;
   
     position: relative;
-    background-image: url(assets/img/viking.jpg);
+    background-image: url(assets/img/viking2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,6 +99,8 @@
     width: 80%;
     font: var(--font);
     padding-bottom: 35px;
+    color: white;
+    
   }
   
   .section_3 {
@@ -108,7 +110,7 @@
     grid-row-start: 3;
   
     box-shadow: -1px 5px 14px -5px rgba(0, 0, 0, 0.75);
-    background-color: #fff;
+    background-color: #080404;
   
     font: var(--font);
   }
@@ -125,6 +127,7 @@
   
     font-size: 11px;
     font-weight: 700;
+    color: white;
   }
   
   .section_3 > .input-form div > input,
@@ -172,16 +175,16 @@
     font: var(--font);
     position: relative;
     background-image: url(assets/img/viking2.jpg);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .section_4 button {
     border-radius: 10px;
-    box-shadow: 1px 1px 5px #666666;
+    box-shadow: 1px 1px 5px #ac2525;
     color: #ffffff;
-    background: #596d48;
+    background: #254906;
     padding: 10px 50px;
     text-decoration: none;
     border: none;
@@ -191,8 +194,25 @@
     background: #9c9c9c;
     text-decoration: none;
   }
-  
+  .section_4 p b:hover {
+    background: #555; 
+  }
+  .section_4 p b {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #333; 
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
   .section_4 p {
     margin-top: 28px;
   }
-  
+  h3{
+    color:rgb(255, 255, 255);
+  }
+  p{
+    color: white;
+  }
